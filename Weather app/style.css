@@ -1,0 +1,75 @@
+```css id="css82p"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+.container {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #0056b3;
+}
+
+.weather-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.weather-card h2 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.weather-card p {
+    margin: 8px 0;
+    color: #555;
+}
+
+```
